@@ -9,6 +9,8 @@ let reconnectAttempts = 0;
 const MAX_RECONNECT_ATTEMPTS = 5;
 const RECONNECT_DELAY = 1000;
 
+
+
 // Initialize your app
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
